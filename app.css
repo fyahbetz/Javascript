@@ -2,7 +2,7 @@
 body {
     background: rgb(111, 208, 224);
     background: linear-gradient(0deg,rgb(111, 208, 224) 0%, rgb(171, 228, 167) 100%);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     text-align: center;
     min-height: 100vh;
 }
@@ -16,7 +16,7 @@ h1 {
 
 h2,
 h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 @media (min-width: 650px) {
@@ -96,6 +96,7 @@ p {
 .grid-item h3 {
     font-size: 2em;
     color: #eee;
+    height: 200px;
 }
 
 .grid-item img {
@@ -114,6 +115,7 @@ p {
     font-size: 1.2em;
     font-weight: 600;
     color: #fff;
+    height: 100px;
 }
 
 /* Form Styles */
@@ -154,7 +156,6 @@ select {
 }
 
 #btn {
-    display: inline-block;
     background: #ccc;
     padding: 0.8em;
     margin: 1.2em auto;
@@ -166,9 +167,28 @@ select {
     color: #fff;
     cursor: pointer;
 }
+#btn-reset{
+    background: #ccc;
+    padding: 0.8em;
+    margin: 1.2em auto;
+    transition: ease 0.3s all;
+
+}
+#btn-reset:hover{
+    background: #777;
+    color: #fff;
+    cursor: pointer;
+}
 
 /* Footer */
 .fine-print {
     display: block;
     font-size: 0.7em;
+}.btn-class {
+     text-align: center;
+ }
+
+.form-container-reset{
+
+
 }
