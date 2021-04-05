@@ -3,7 +3,7 @@
 ## Student Instructions
 
 ## Installation
-To avaid problem with fetching data grom json file run 
+To avaid problem with fetching data from json file run 
 
 ```npx http-server --cors```
 
