@@ -148,8 +148,9 @@ document.getElementById('btn').addEventListener('click', function () {
     // lets hide the form ...
     document.getElementById("dino-compare").style.display = "none";
 
-    // lets create an array where we store dinos and human info to use to display...
-    let objectToDisplay = dinos.concat(humanInput);
+    // lets create an array where we store dinos and human info to use to display... human should be in the middle so i use splice function
+    dinos.splice(4 , 0 ,humanInput);
+    let objectToDisplay = dinos;
 
     for (let element in objectToDisplay){
 
@@ -172,7 +173,6 @@ document.getElementById('btn').addEventListener('click', function () {
 
         document.getElementById("grid").appendChild(gridElement);
 
-        
 
     }
 
